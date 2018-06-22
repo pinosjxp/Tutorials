@@ -25,7 +25,7 @@ $.get('/schools',function(schools){
     })
 })
 ```
-This callback chain drills through a REST-like api to find detailed user info on the first user that it can find. There's not too many lines of code here, but imaging drilling through a REST api with many layers of resources to get similar information. What about adding a callback after each request to do some preprocesing (E.g. converting the data to JSON, filtering)? This chain of callbacks can get very large quickly... 
+This callback chain drills through a REST-like api to find detailed user info on the first user that it can find. There's not too many lines of code here, but imagine drilling through a REST api with many layers of resources to get similar information. What about adding a callback after each request to do some preprocesing (E.g. converting the data to JSON, filtering)? This chain of callbacks can get very large quickly... 
 ```javascript
 //Assume Jquery $.get() takes url as first parameter and callback as second parameter.
 $.get('/schools', function(schools){

@@ -1,13 +1,13 @@
 module.exports = (sequelize, DataTypes) => {
-    let groceryList = sequelize.define('grocery_list', {
+    let permission = sequelize.define('permission', {
         //Attributes...
     }, {
         //Configurations...
     })
   
-    groceryList.associate = (models) => {
+    permission.associate = (models) => {
         //Associations...
     }
-    return groceryList
+    return permission
 }
   

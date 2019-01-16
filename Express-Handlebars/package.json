@@ -1,5 +1,5 @@
 {
-  "name": "Express-Handlebars",
+  "name": "commissary",
   "version": "1.0.0",
   "description": "A sample express application using handlebars and sequelize.",
   "main": "server.js",
